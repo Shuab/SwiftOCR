@@ -11,7 +11,7 @@ let package = Package(
     products: [
         .library(
             name: "SwiftOCR",
-            targets: ["SwiftOCR_Mac"]),
+            targets: ["SwiftOCR Mac"]),
     ],
     targets: [
         .target(name: "SwiftOCR Mac")
