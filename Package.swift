@@ -14,7 +14,9 @@ let package = Package(
             targets: ["SwiftOCR Mac"]),
     ],
     targets: [
-        .target(name: "SwiftOCR Mac")
+        .target(
+            name: "SwiftOCR Mac",
+            path: "framework")
     ],
     swiftLanguageVersions: [.v5]
 )
